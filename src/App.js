@@ -1,15 +1,13 @@
 import React from "react";
-import styled from "styled-components";
-import "./App.css";
-
-const MainApp = styled.div`
-  text-align: center;
-`;
+import { GlobalStyle } from './Themes'
+import { hot } from 'react-hot-loader/root'
 
 const App = () => (
-  <MainApp>
+  <React.Fragment>
+    <GlobalStyle />
     <h1>Mob-X</h1>
-  </MainApp>
+    <p>Hello world!</p>
+  </React.Fragment >
 );
 
-export default App;
+export default hot(App);

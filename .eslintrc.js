@@ -51,6 +51,10 @@ module.exports = {
         "semi": [
             "error",
             "always"
+        ],
+        "max": [
+            "error",
+            1
         ]
     }
 };
