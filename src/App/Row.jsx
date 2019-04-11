@@ -5,7 +5,7 @@ const Row = ({ name, salary }) => {
     return (
         <tr>
             <TD>{name}</TD>
-            <TD>{salary}</TD>
+            <TD>£{salary}</TD>
         </tr>
     );
 };

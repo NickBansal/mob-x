@@ -33,10 +33,9 @@ export const Button = styled.button`
 
 export const FullTable = styled.table`
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 `
 
 export const TD = styled.td`
-    border: 4px solid grey;
     width: 200px;
 `
