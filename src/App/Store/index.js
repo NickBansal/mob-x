@@ -23,6 +23,4 @@ decorate(Store, {
     totalPay: computed
 })
 
-const appStore = new Store()
-
-export default appStore
+export default Store

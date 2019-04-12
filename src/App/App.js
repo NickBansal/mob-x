@@ -4,10 +4,12 @@ import { hot } from 'react-hot-loader/root'
 import Controls from './Controls'
 import { configure } from "mobx"
 import Table from './Table'
-import appStore from './Store'
+import Store from './Store'
 import Sum from './Sum'
 
 configure({ enforceActions: "observed" })
+
+const appStore = new Store()
 
 const TodoList = () => (
   <React.Fragment>
